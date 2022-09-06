@@ -165,7 +165,7 @@ top: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 100px;
+    width: 100px;
     height: 200px;
     margin: 15px 0 0 15px;
     padding: 20px;
