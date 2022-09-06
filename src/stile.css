@@ -1,0 +1,220 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+:root{
+    --color-btn-green: rgb(37, 185, 64);
+    --color-blue: rgb(32, 50, 114);
+    --color-black: #282623;
+    --color-white: #fff;
+    --color-of-white: #ddd;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    /* overflow: hidden; */
+}
+p{
+    font-size: 1.6rem;
+}
+/* -----------ESTILOS  DEL HEADER---------------- */
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    width: 100%;
+    height: 5rem;
+    height: auto;
+}
+.header--networks{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header  i{
+    font-size: 4rem;
+    margin: 0 5px;
+}
+
+.header--networks i.linkedin{
+    color: #0A66C2;
+}
+
+.header--networks i.github{
+    color: #000;
+}
+
+/*--------------------ESTILOS AL BUTTON LOGIN-----------------*/
+.header--login{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    border-radius: 5px;
+    border: none;
+    border: 2px solid var(--color-btn-green);
+    padding: 10px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: var(--color-white);
+}
+
+.header--login, .header--login i{
+    font-size: 1.8rem;
+
+}
+
+.header--login:hover{
+background-color: var(--color-btn-green);
+color: var(--color-white);
+}
+
+/* ------------ESTILOS AL BANNER----------- */
+.header--banner{
+    width: 100%;
+    border: 2px solid #000;
+    height: 150px;
+    background-color: var(--color-blue);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0 auto;
+    padding: 20px 0;
+    position: relative;
+}
+.header--banner h1{
+    color: var(--color-white);
+    font-size: 2.5rem;
+}
+
+
+/* dandole estilo maquina de escribir a mi texto del baner */
+h1 { 
+    position: relative; 
+	float: left;
+	font-size: 2rem;
+	color: var(--color-white);
+    padding: 5px;
+}
+
+h1 span {
+    position:absolute;
+    height: 3rem;
+    right:0;
+    width:0;
+    background: var(--color-blue);
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(26) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
+/* dandole estilos y posicion a la foto */
+.header--banner > img{
+width: 15rem;
+height: 15rem;
+border-radius: 50%;
+position: absolute;
+align-self: center;
+top: 50%;
+}
+
+/* -----------------estilos al about------- */
+.container__main{
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 7.5rem;
+    box-sizing: border-box;
+}
+
+.container__main h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 2.5rem;
+    padding: 0 0 0 1.5rem;
+}
+
+.container__main  .main--about p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    padding: 0 15px 15px 15px;
+    border-bottom: 1px solid;
+    border-radius: 0 0 40px 40px;
+    box-shadow: 2px 2px 2px var(--color-black);
+}
+
+/*----------dandole estilos al sector skill*/
+.main--skill{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap: wrap;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100px;
+    height: 200px;
+    margin: 15px 0 0 15px;
+    padding: 20px;
+    border-radius: 10px;
+    background: var(--color-black);
+    box-shadow: 5px 5px 7px #000;
+}
+.box:hover{
+    transform:scale(1.1);
+}
+.container__main .box h3, .container__main .box p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--color-of-white);
+    font-size: 2.5rem;
+}
+.container__main .box p{
+    font-size: 1.6rem;
+}
+
+.main--skill i{
+    font-size: 8rem;
+    margin: 15px;
+}
+
+i.html5{
+    color: #F64A1D;
+}
+i.css3{
+    color: #1572B6;
+}
+i.js{
+    color: #F7DF1E;
+}
+i.git{
+    color: #F3501D;
+}
+i.github{
+    color: #ddd;
+}
+i.bootstrap{
+    color: #7952B3;
+}
+i.angular{
+    color: #D6002E;
+}
+i.java{
+    color: rgba(31,160,242,1);
+}
+i.database{
+    color: #A2B2B9;
+}
+
