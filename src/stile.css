@@ -60,23 +60,21 @@ p{
     padding: 10px 15px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    background-color: var(--color-white);
+    background-color: var(--color-btn-green);
+    color: var(--color-white);
 }
 
 .header--login, .header--login i{
     font-size: 1.8rem;
-
 }
 
-.header--login:hover{
-background-color: var(--color-btn-green);
-color: var(--color-white);
+.header--login:active{
+    transform: scale(0.9);
 }
 
 /* ------------ESTILOS AL BANNER----------- */
 .header--banner{
     width: 100%;
-    border: 2px solid #000;
     height: 150px;
     background-color: var(--color-blue);
     display: flex;
@@ -140,6 +138,7 @@ top: 50%;
     font-weight: bold;
     font-size: 2.5rem;
     padding: 0 0 0 1.5rem;
+    width: 100%;
 }
 
 .container__main  .main--about p{
@@ -165,8 +164,8 @@ top: 50%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-width: 100px;
-    height: 200px;
+    width: 100px;
+    height: 150px;
     margin: 15px 0 0 15px;
     padding: 20px;
     border-radius: 10px;
@@ -218,3 +217,34 @@ i.database{
     color: #A2B2B9;
 }
 
+/*seccion de estilos al main-contact*/
+.main-contact{
+    margin-top: 2.5rem;
+}
+.box-info{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: flex-start;
+    height: 3rem;
+    padding: 0 0 0 2rem;
+}
+.box-info i{
+    font-size: 2rem;
+    color: #000;
+    padding-right: 5px;
+}
+.box-info p{
+    font-size: 1.6rem;
+    color: #000;
+}
+
+.box-info i.user{
+    color: var(--color-blue);
+}
+.box-info i.whatsapp{
+    color: var(--color-btn-green);
+}
+.box-info i.envelope{
+    color: rgb(199, 39, 39);
+}
