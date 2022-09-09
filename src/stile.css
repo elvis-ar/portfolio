@@ -232,7 +232,7 @@ i.database{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     justify-items: center;
     padding: 5px 0;
 
