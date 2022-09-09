@@ -233,12 +233,12 @@ i.database{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
-    justify-items: center;
+    justify-items: flex-start;
     padding: 5px 0;
 
 }
 .box-form label{
-    font-size: 2rem;
+    font-size: 1.7rem;
     padding-right: 5px;    
     width: 100px;
     text-align: left;
