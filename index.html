@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="poryectos, aptitudes y conocimientos portfolio de Elvis Arias.">
+    <meta name="description" content="portfolio de Evis arias, diseñador y programador web ariasit">
     <meta name="keywords" content="Elvis Arias, programaci&oacute;n, portfolio, desarrollo web, programacion web">
     <meta name="author" content="Elvis Arias">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="shortcut icon" href="https://i.ibb.co/gD0Hq0w/apple-touch-icon.png">
 
     <link rel="stylesheet" href="src/stile.css">
 
@@ -25,6 +27,7 @@
             
             <article class="header">
                 
+                <!-- ------------BUTTONS---------------- -->
                 <article class="header--networks">
                     <a href="https://www.linkedin.com/in/elvis-arias95/" target="_blank"><i class="fa-brands fa-linkedin linkedin" ></i></a>
                     <a href="https://github.com/elvis-ar"target="_blank"><i class="fa-brands fa-square-github github"></i></a>
@@ -39,6 +42,7 @@
             </article>
                 
 
+            <!-- ------------BANNER---------------- -->
             <article class="header--banner">
                 <h1>Portfolio de Elvis Arias. <span>&#160;</span></h1>
                 <img src="https://i.ibb.co/c1t4Vq4/elvis.jpg" alt="foto de Elvis Arias">
@@ -47,15 +51,18 @@
         </section>
 
         <section class="container__main">
+            <!-- ------------ABOUT---------------- -->
             <article class="main--about">
                 <h2>Informacion</h2>
                 <p>Hola mi nombre es Elvis Arias me apasiona la programaci&oacute;n, considero que soy responsable, puntual, organizado, creativo, trabajo bien en equipo.
                 Actualmente me encuentro cursando mis estudios terciarios en Inform&aacute;tica Aplicada en el Instituto Nacional Superior del Profesorado Técnico (INSPT UTN). Tambi&eacute;n me encuentro realizando diversos cursos relacionados con programaci&oacute;n web, via online en diversas plataformas y cursos. algunas de estas son: Platzi, ArgentinaPrograma, Open-Bootcamp.</p>
             </article>
-
-
+            
+            
+            <!-- ------------SKILL---------------- -->
             <article class="main--skill">
                 <h2>Conocimientos</h2>
+                <!-- ------------BOX PARA ESTILIZARLOS---------------- -->
                 <article class="box">
                     <i class="fa-brands fa-html5 html5"></i>
                     <h3>HTML5</h3>
@@ -78,9 +85,35 @@
                 </article>
                 
             </article>
+            
+            <!-- ------------FORM CONTACT---------------- -->
+            <article class="main--contact">
+                <form action="">
+                    <div class="box-form">
+                        <label for="name">Nombre:</label>
+                        <input type="text" name="" id="name" required>
+                    </div>
+                    <div class="box-form">
+                        <label for="telefone">Telefono:</label>
+                        <input type="number" name="" id="telefone">
+                    </div>
+                    <div class="box-form">
+                        <label for="email">Email:</label>
+                        <input type="email" name="" id="email" required >
+                    </div>
+                    <div class="box-form">
+                        <label for="menssge">Mensaje:</label>
+                        <textarea name="menssage" id="" cols="300" rows="30" required placeholder="Escriba su mensaje"></textarea>
+                    </div>
 
-            <article class="main-contact">
-                <h2>Contacto</h2>
+                    
+                </form>
+            </article>
+        </section>
+        
+        <!-- ------------FOOTER---------------- -->
+        <footer class="container__footer">
+            <article >
                 <div class="box-info">
                     <i class="fa-regular fa-user user"></i>
                     <p>Elvis Arias</p>
@@ -93,8 +126,12 @@
                     <i class="fa-regular fa-envelope envelope"></i>
                     <p>elvisarias1995@gmail.com</p>
                 </div>
+                <div class="box-info">
+                    <i class="fa-regular fa-copyright copyright"></i>
+                    <p>AriasIt 2022 - Todos los derechos reservados</p>
+                </div>
             </article>
-        </section>
+        </footer>
 
         
 

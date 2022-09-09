@@ -217,26 +217,60 @@ i.database{
     color: #A2B2B9;
 }
 
-/*seccion de estilos al main-contact*/
-.main-contact{
+/*---------------forms contact-----------------*/
+.main--contact{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    background-color: #ddd;
+    padding: 3rem;
+    margin: 3rem auto 0 auto;border-radius: 5px;
+    box-shadow: 2px 2px 2px var(--color-black);
+}
+.box-form{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    padding: 5px 0;
+
+}
+.box-form label{
+    font-size: 2rem;
+    padding-right: 5px;
+    width: 100px;
+    text-align: left;
+}
+
+.box-form input{
+    width: 200px;
+    height: 30px;
+    align-self: stretch;
+    justify-self: center;
+    font-size: 1.6rem;
+}
+
+/*seccion de estilos al FOOTER*/
+.container__footer{
     margin-top: 2.5rem;
+    background-color: var(--color-black);
 }
 .box-info{
     display: flex;
     flex-direction: row;
     width: auto;
-    justify-content: flex-start;
-    height: 3rem;
-    padding: 0 0 0 2rem;
+    justify-content: center;
+    align-items: baseline;
 }
 .box-info i{
-    font-size: 2rem;
+    font-size: 1.6rem;
     color: #000;
     padding-right: 5px;
 }
 .box-info p{
-    font-size: 1.6rem;
-    color: #000;
+    font-size: 1.5rem;
+    color: var(--color-of-white);
 }
 
 .box-info i.user{
@@ -247,4 +281,8 @@ i.database{
 }
 .box-info i.envelope{
     color: rgb(199, 39, 39);
+}
+
+.box-info .copyright{
+    color: var(--color-of-white);
 }
