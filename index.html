@@ -83,6 +83,10 @@
                     <i class="fa-brands fa-square-github github"></i>
                     <h3>GITHUB</h3>
                 </article>
+                <article class="box">
+                    <i class="fa-brands fa-java java"></i>
+                    <h3>JAVA</h3>
+                </article>
                 
             </article>
             
@@ -108,8 +112,9 @@
                             <textarea name="menssage" id="" cols="200" required placeholder="Escriba su mensaje..."></textarea>
                         </div>
                         <div class="submit">
-                            <button type="submit">Enviar</button>
+                            <button type="submit" onclick="showText();">Enviar</button>
                         </div>
+                        <p id="textP" class="textP"></p>
                     </form>
                 </article>
             </article>
@@ -141,6 +146,14 @@
         
 
     </section>
+
+
+
+    <script>
+        function showText(){
+            document.getElementById("textP").innerText = "Disculpe Actualmente el formulario no funcion. Puede encontrar mis datos de contacto en el pie de página."
+        }
+    </script>
 
 
     

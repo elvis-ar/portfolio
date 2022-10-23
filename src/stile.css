@@ -107,7 +107,7 @@ h1 span {
     width:0;
     background: var(--color-blue);
     border-left: 1px solid #000;
-    animation: escribir 5s steps(26) infinite alternate;
+    animation: escribir 5s steps(27) infinite alternate;
 }
 
 @keyframes escribir {
@@ -215,6 +215,9 @@ i.java{
 }
 i.database{
     color: #A2B2B9;
+}
+i.java{
+    color:  #F64A1D;
 }
 
 /*---------------forms contact-----------------*/
@@ -330,4 +333,7 @@ div.submit{
     justify-items: center;
 }
 
-
+p.textP{
+    color: red;
+    font-weight: bold;
+}
