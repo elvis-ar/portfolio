@@ -217,7 +217,17 @@ i.database{
     color: #A2B2B9;
 }
 i.java{
-    color:  #F64A1D;
+    color: rgba(12,115,187,1);
+}
+i span{
+    color: #D6002E;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4rem;
+    font-weight: bold;
+    padding: 0;
+}
+i.oop{
+    margin: 0;
 }
 
 /*---------------forms contact-----------------*/
@@ -335,5 +345,6 @@ div.submit{
 
 p.textP{
     color: red;
-    font-weight: bold;
+    font-weight: 500;
+    padding-top: 1rem;
 }
