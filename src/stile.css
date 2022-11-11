@@ -321,7 +321,7 @@ i.oop{
 div.pwm-field-icon{
     display: none;
 }
-button[type="submit"]{
+button[type="button"]{
     width: 100px;
     padding: 5px;
     background:var(--color-blue);
@@ -332,10 +332,10 @@ button[type="submit"]{
     border-radius: 15px;
     box-shadow: 2px 2px 2px var(--color-black)
 }
-button[type="submit"]:active{
+button[type="button"]:active{
     transform: scale(.9);
 }
-div.submit{
+div.button{
     width: 100%;
     display: flex;
     justify-content: center;
